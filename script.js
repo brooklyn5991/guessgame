@@ -11,7 +11,7 @@ let count = 20;
 
 
 function check() {
-    let randomScore = Math.ceil(Math.random() * 1 + 1);
+    let randomScore = Math.ceil(Math.random() * 20 + 1);
     let guessNumber = Number(document.querySelector(".guess").value);
 
     if (guessNumber > randomScore) {
