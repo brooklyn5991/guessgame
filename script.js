@@ -33,14 +33,15 @@ function check() {
     } 
 }
 
-function again () {
-        message.innerHTML = `Start guessing...`;
+function again() {
+       // message.innerHTML = `Start guessing...`;
         number.innerHTML = `?`;
-        document.body.style.backgroundColor = `#222`;
-        highScoreMsg.innerHTML = `0`;
+       // document.body.style.backgroundColor = `#222`;
+       // highScoreMsg.innerHTML = `0`;
         document.querySelector(".guess").value = ``;
         
 }
+
 
 
 
