@@ -15,12 +15,12 @@ function check() {
     let guessNumber = Number(document.querySelector(".guess").value);
 
     if (guessNumber > randomScore) {
-        message.innerHTML = `Too high`;
+       // message.innerHTML = `Too high`;
         number.innerHTML = randomScore;
         
         
     } else if (guessNumber < randomScore) {
-        message.innerHTML = `Too low`;
+        // message.innerHTML = `Too low`;
         number.innerHTML = randomScore;
         
        
