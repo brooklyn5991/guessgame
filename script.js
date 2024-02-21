@@ -25,7 +25,7 @@ function check() {
         
        
     } else if (guessNumber === randomScore) {
-       document.body.style.backgroundColor = `green`;
+      // document.body.style.backgroundColor = `green`;
          // let newScore = randomScore ;
          let newScore = randomScore - 1;
         number.innerHTML = newScore;
